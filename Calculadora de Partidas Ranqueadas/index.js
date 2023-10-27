@@ -18,9 +18,9 @@ function calcularNivelRankeadas(vitorias, derrotas) {
       nivel = 'Imortal'
     }
   
-    console.log(`O Herói tem um saldo de ${saldoVitorias} está no nível de ${nivel}`)
+    console.log(`O Herói tem um saldo de ${saldoVitorias} está no nível de ${nivel}`);
   }
   
-  const vitorias = 60
-  const derrotas = 20
+  const vitorias = 60;
+  const derrotas = 20;
   calcularNivelRankeadas(vitorias, derrotas)
